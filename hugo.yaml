@@ -1,0 +1,47 @@
+baseURL: https://n0zk.com/
+languageCode: en-us
+title: n0zk.com
+theme: ["PaperMod"]
+
+params:
+  title: n0zk's Blog
+  description: "Welcome to N0zk's blog"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: n0zk
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  homeInfoParams:
+    Title: "Welcome to N0zk's Blog"
+    Content: Full time Security nerd & researcher? - I like to build, make and break weird stuff.
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/n0zk__"
+    - name: github
+      url: "https://github.com/n0zk1"
+
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 10
