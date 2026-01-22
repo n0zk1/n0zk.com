@@ -11,7 +11,6 @@ hidemeta: false
 comments: false
 description: "Desc Text."
 disableHLJS: true # to disable highlightjs
-disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
