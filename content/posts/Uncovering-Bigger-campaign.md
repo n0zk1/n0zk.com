@@ -1,12 +1,12 @@
 ---
-title: "Network Security Monitoring 101"
-date: 2026-01-19T00:30:03+09:00
+title: "Research: Uncovering a bigger campaign"
+date: 2026-01-26T00:30:03+09:00
 # weight: 1
-tags: ["Network"]
+tags: ["Research"]
 author: "Me"
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
 description: "Desc Text."
