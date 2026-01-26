@@ -41,9 +41,9 @@ params:
 
 menu:
   main:
-    - identifier: posts
-      name: posts
-      url: /posts/
+    - identifier: Posts
+      name: Posts
+      url: /Posts/
       weight: 10
 
 caches:
