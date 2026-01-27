@@ -6,10 +6,10 @@ tags: ["Research"]
 author: "Me"
 showToc: true
 TocOpen: false
-draft: true
+draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
+description: "Descte "
 disableHLJS: true # to disable highlightjs
 hideSummary: false
 searchHidden: true
