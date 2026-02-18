@@ -50,13 +50,14 @@ The URL had several URL redirects as to not get evade by initial detection by se
 - What you would be met by were a simple website with a "form" and the Icon of Sharepoint, were the victim could fill out their email to start out and afterwards password...
 
 Key topics from a highlevel analysis 
--The domain(s) used, were mainly a parked domian(s)
+- The domain(s) used, were mainly a parked domian(s)
 
--Several redirects through different ASN(s)
+- Several redirects through different ASN(s)
 
--Some of the Webapp's had a "required field(s)" before the victim will submit - Sadly I weren't able to get in touch of all of the scripts that make the checks. But the webapps had a difference as some of them didn't had the same "required field(s)" 
+- Some of the Webapp's had a "required field(s)" before the victim will submit - Sadly I weren't able to get in touch of all of the scripts that make the checks. But the webapps had a difference as some of them didn't had the same "required field(s)" 
 
--"Email_checker" Based on the analysis, the Email checker were used to ensure that it were a legtime mail before the "form" were accepted. 
--"Vistior_token" were required both in the Email check phase and when the "form" were sent.
+- "Email_checker" Based on the analysis, the Email checker were used to ensure that it were a legtime mail before the "form" were accepted. 
+
+- "Vistior_token" were required both in the Email check phase and when the "form" were sent.
 
 Another note, the webapp appered to had some changes afterwards for a bit similiar campaign but different initial AiTM campaign were it's Fake Teams meetings... 
