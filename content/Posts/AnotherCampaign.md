@@ -33,7 +33,7 @@ At least it's what has been seen lately.
 
 Subdomains can be abused for making phishing URLs look more legit, the ability to create a subdomain requires certain amount of privilege within a domain, but the threat actors are able to gain that in various methods.  
 
-This is mainly am quick and simple post about my finding.  
+This is mainly a quick and simple post about my finding.  
 
 Recently did I stumble across a URL which saw interesting that I wanted to a further look.  
 
