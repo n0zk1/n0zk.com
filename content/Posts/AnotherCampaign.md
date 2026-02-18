@@ -37,9 +37,9 @@ This is mainly a quick and simple post about my finding.
 
 Recently did I stumble across a URL which saw interesting that I wanted to a further look.  
 
-The URL were based upon: company.takenoverdomain.com  
+The URL were based upon: **company.takenoverdomain.com**  
 
-The URLs were specifically crafted for a bigger healthcare company as it led to that it could be seen this was a Healthcare & Pharmacy targeted on-going campaign. As the new subdomains constantly were created with small timeframe in between with a subdomain of Danish and Netherlands origin Healthcare & Pharmacy company names. 
+The URLs were specifically crafted for a bigger healthcare company as it ccould be seen this was a Healthcare & Pharmacy targeted on-going campaign. As the new subdomains constantly were created with small timeframe in between with a subdomain of Danish and Netherlands origin Healthcare & Pharmacy company names. 
 
 There were at least only names from bigger and smaller Healthcare & Pharmacy organizations that mainly had origin of Denmark or Netherlands. From the initial hunting and the list gathered it were both typo squad sub domain names and exact domain names that were used in this campaign.  
 
@@ -49,7 +49,7 @@ The URL had several URL redirects as to not get evade by initial detection by se
 
 - What you would be met by were a simple website with a "form" and the Icon of Sharepoint, were the victim could fill out their email to start out and afterwards password...
 
-Key topics from a highlevel analysis 
+**Key topics from a highlevel analysis** 
 - The domain(s) used, were mainly a parked domian(s)
 
 - Several redirects through different ASN(s)
