@@ -41,7 +41,7 @@ The URL were based upon: **company.takenoverdomain.com**
 
 The URLs were specifically crafted for a bigger healthcare company as it could be seen this was a Healthcare & Pharmacy targeted on-going campaign. As the new subdomains constantly were created with small timeframe in between with a subdomain of Danish and Netherlands origin Healthcare & Pharmacy company names. 
 
-There were at least only names from bigger and smaller Healthcare & Pharmacy organizations that mainly had origin of Denmark or Netherlands. From the initial hunting and the list gathered it were both typo squad sub domain names and exact domain names that were used in this campaign.  
+There were at least only names from bigger and smaller Healthcare & Pharmacy organizations that mainly had origin of Denmark or Netherlands. From the initial hunting and the list gathered it were both typo squad subdomain names and exact domain names that were used in this campaign.  
 
 My initial thoughts indicate that the threat actor may have used GenAI for creating the typo squad list and domain names, mostlikely also the Webapp.. 
 
