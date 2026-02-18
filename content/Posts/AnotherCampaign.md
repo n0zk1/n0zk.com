@@ -4,7 +4,7 @@ date: 2026-01-26T00:30:03+09:00
 description: "Once again a campaign..."
 # weight: 1
 tags: ["Research"]
-author: "Me"
+author: "n0zk"
 showToc: true
 TocOpen: false
 draft: false
