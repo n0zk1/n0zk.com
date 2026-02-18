@@ -56,7 +56,7 @@ Key topics from a highlevel analysis
 
 -Some of the Webapp's had a "required field(s)" before the victim will submit - Sadly I weren't able to get in touch of all of the scripts that make the checks. But the webapps had a difference as some of them didn't had the same "required field(s)" 
 
-    -"Email_checker" Based on the analysis, the Email checker were used to ensure that it were a legtime mail before the "form" were accepted. 
-    -"Vistior_token" were required both in the Email check phase and when the "form" were sent.
+-"Email_checker" Based on the analysis, the Email checker were used to ensure that it were a legtime mail before the "form" were accepted. 
+-"Vistior_token" were required both in the Email check phase and when the "form" were sent.
 
 Another note, the webapp appered to had some changes afterwards for a bit similiar campaign but different initial AiTM campaign were it's Fake Teams meetings... 
