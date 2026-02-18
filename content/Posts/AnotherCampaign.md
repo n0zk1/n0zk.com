@@ -35,29 +35,29 @@ Subdomains can be abused for making phishing URLs look more legit, the ability t
 
 This is mainly a quick and simple post about my finding.  
 
-Recently did I stumble across a URL which saw interesting that I wanted to a further look.  
+I did recently stumble across a URL which saw interesting that I wanted to a further look.  
 
 The URL were based upon: **company.takenoverdomain.com**  
 
-The URLs were specifically crafted for a bigger healthcare company as it could be seen this was a Healthcare & Pharmacy targeted on-going campaign. As the new subdomains constantly were created with small timeframe in between with a subdomain of Danish and the Netherlands originating Healthcare & Pharmacy company names. 
+The URLs were carefully designed to target major healthcare and pharmacy companies as part of the campaign. New subdomains were rapidly generated with only brief timeline between them. The campaign specifically focused on companies based in Denmark and the Netherlands.
 
-There were at least only names from bigger and smaller Healthcare & Pharmacy organizations that mainly were originating from Denmark or the Netherlands. From the initial hunting and the list gathered it were both typo squad subdomain names and exact domain names that were used in this campaign.  
+There was only names from bigger and smaller Healthcare & Pharmacy organizations that which are originating from Denmark or the Netherlands. In the initial hunting phase, the list gathered were both typosquad subdomains and exact company names used in the subdomain.   
 
-My initial thoughts indicate that the threat actor may have used GenAI for creating the typo squad list and domain names, mostlikely also the Webapp.. 
+My initial thoughts indicate that the threat actor may have used GenAI for creating the typosquad list and domain names, and mostlikely also used it for the Webapp.. 
 
-The URL had several URL redirects as to not get evade by initial detection by security tools, what there were under the hood was a Fake Microsoft SharePoint login page to steal the Primary token.  
+The URL created had several URL redirects as to not get evade by initial detection from security tools but what there were actually under the hood was a Fake Microsoft SharePoint login page to steal the Primary token from the user account.   
 
-- What you would be met by were a simple website with a "form" and the Icon of Sharepoint, were the victim could fill out their email to start out and afterwards password...
+- What you will be met by was a simple website with a "form" and the Sharepoint logo, were the victim could fill out their email to start out and afterwards password...
 
 **Key topics from a highlevel analysis** 
-- The domain(s) used, were mainly a parked domian(s)
+- The domain(s) used, were mainly a parked domian(s) - The domains were usually parked for a few weeks before usage.  
 
 - Several redirects through different ASN(s)
 
-- Some of the Webapp's had a "required field(s)" before the victim will submit - Sadly I weren't able to get in touch of all of the scripts that make the checks. But the webapps had a difference as some of them didn't had the same "required field(s)" 
+- Some part of the webapp had an "required field(s)" before the threat actor receives it such as email and a specific "Visitor token" generated when the victim accessed the site but sadly I wasn't able to analyze all of the scripts that made the checks in the webapp but there was a difference in the webapps created which revealed some of webapps had minor changes in the code. In some part of the webapps it was required to have both scripts but in some other web was it only the email script that ran through before it handled the request further and sometimes wasn't there any checks. 
 
-- "Email_checker" Based on the analysis, the Email checker were used to ensure that it were a legtime mail before the "form" were accepted. 
+- "Email_checker.php" Based on the analysis, the email checker script was used to ensure that it had MX records assigned to the domain of the email by making DNS lookups before the "form" were accepted. 
 
-- "Vistior_token" were required both in the Email check phase and when the "form" were sent.
+- "Vistior_token-php" The script acts as an "identifier" and creates a 32 character random generated text string acting as a "token" which was required both in the email check phase and when the "form" were sent. 
 
 Another note, the webapp appered to had some changes afterwards for a bit similiar campaign but different initial AiTM campaign were it's Fake Teams meetings... 
